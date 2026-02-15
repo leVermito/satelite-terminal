@@ -1,0 +1,11 @@
+numpy
+numba
+textual
+rich
+geopandas
+pyserial
+pynmea2
+sgp4
+tomlkit
+pydantic
+paho-mqtt

@@ -1,0 +1,17 @@
+[client]
+client_id = "p2"
+
+[mqtt]
+broker = "192.168.1.52"
+port = 1883
+username = ""
+password = ""
+
+[hardware]
+gps_type = "pigpio"          # "pigpio" or "none"
+gps_baud = 9600
+gps_gpio = 18
+imu_port = "/dev/serial0"
+imu_baud = 9600
+imu_freq = "10"
+tracking_interval = 0.25     # seconds between az/el updates
